@@ -1,0 +1,100 @@
+
+body {
+    max-width: 767px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    gap: 30px;
+    background-color: #38bccc
+    
+}
+
+
+
+path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+.main-title {
+    text-transform: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-main {
+    margin-bottom: 4rem;
+}
+
+.btn-primary {
+    width: 16rem;
+    margin-top: 1.5rem;
+    animation: opacityBtn .5s ease-out;
+}
+
+#email-input,
+#password-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+.section-login-social {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-login{
+    width: 12rem;
+    height: 2.3rem;
+    padding: .3rem;
+    border-radius: 4px;
+    gap: 5px;
+}
+
+.bi-google {
+    margin-left: .5rem;
+}
+
+.social-text {
+    font-size: .9rem;
+}
+
+.bi-google {
+    color: #310ef5;
+}
+
+.section-login-social {
+    animation: slideLeft .4s ease-out;
+}
+
+
+
+    ::selection {
+        background: var(--card-red);
+        color: var(--white);
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-box {
+        background-color: white;
+        border: 1px solid rgb(214, 216, 216);
+        border-radius: 5px;
+        box-shadow: 6px 6px 9px rgba(0, 55, 77, 0.363);
+        padding: 4rem 2rem;
+    }
+
+    .google-login {
+        cursor: pointer;
+    } 
